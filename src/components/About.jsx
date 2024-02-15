@@ -38,7 +38,7 @@ const ServiceCard = ({ index, title, icon }) => {
   );
 };
 
-export const About = () => {
+const About = () => {
   return (
     <>
       <motion.div variants={textVariant}>
