@@ -1,5 +1,5 @@
 import React from 'react';
-import { Tilt } from 'react-tilt';
+import Tilt from 'react-parallax-tilt';
 import { motion } from 'framer-motion';
 
 import { styles } from '../styles';
@@ -75,11 +75,12 @@ const Works = () => {
           variants={fadeIn('', ',', 0.1, 1)}
           className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
         >
-          EDIT THIS: Intermediate frontend developer with over 3 years
-          of experience in React and a strong foundation in
-          TypeScript. Proficient in building engaging and intuitive
-          user interfaces. Proven track record in building and
-          shipping various features and products.
+          Each project is a testament to my commitment to excellence,
+          combining the latest web technologies to deliver seamless,
+          intuitive, and feature-rich applications. The code
+          repositories on my GitHub stand as a testament to my passion
+          for innovation and proficiency in the ever-evolving
+          landscape of tech.
         </motion.p>
       </div>
       <div className="mt-20 flex flex-wrap gap-7">

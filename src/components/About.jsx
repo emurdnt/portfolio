@@ -1,5 +1,5 @@
 import React from 'react';
-import { Tilt } from 'react-tilt';
+import Tilt from 'react-parallax-tilt';
 import { motion } from 'framer-motion';
 
 import { styles } from '../styles';
@@ -51,11 +51,13 @@ const About = () => {
         variants={fadeIn('', '', 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        Intermediate frontend developer with over 3 years of
-        experience in React and a strong foundation in TypeScript.
-        Proficient in building engaging and intuitive user interfaces.
-        Proven track record in building and shipping various features
-        and products.
+        I'm a results-driven Software Engineer with 3+ years of
+        experience in frontend across various industries, including
+        E-Commerce, FinTech, and Services. Proficient in crafting
+        intuitive user interfaces for web and mobile applications
+        using React, React Native, AngularJS, and Next.js. <br />
+        <br />I play tennis/golf in my spare time. I also love
+        watching cooking videos on Youtube.
       </motion.p>
       <div className="mt-20 flex flex-wrap gap-10">
         {services.map((service, index) => (

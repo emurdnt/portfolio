@@ -1,7 +1,5 @@
 import {
   mobile,
-  backend,
-  creator,
   web,
   javascript,
   typescript,
@@ -11,18 +9,18 @@ import {
   redux,
   tailwind,
   nodejs,
-  mongodb,
+  angular,
+  rxjs,
   git,
-  figma,
-  docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
   threejs,
+  shair,
+  viewpoint,
+  lighthouselabs,
+  thebrick,
+  clc,
+  creator,
+  shairco,
+  rover,
 } from '../assets';
 export const navLinks = [
   {
@@ -52,11 +50,7 @@ const services = [
     icon: mobile,
   },
   {
-    title: 'Backend Developer',
-    icon: backend,
-  },
-  {
-    title: 'Content Creator',
+    title: 'Hobby Starter',
     icon: creator,
   },
 ];
@@ -86,16 +80,20 @@ const technologies = [
     icon: redux,
   },
   {
+    name: 'Angular',
+    icon: angular,
+  },
+  {
+    name: 'RxJS',
+    icon: rxjs,
+  },
+  {
     name: 'Tailwind CSS',
     icon: tailwind,
   },
   {
     name: 'Node JS',
     icon: nodejs,
-  },
-  {
-    name: 'MongoDB',
-    icon: mongodb,
   },
   {
     name: 'Three JS',
@@ -105,66 +103,65 @@ const technologies = [
     name: 'git',
     icon: git,
   },
-  {
-    name: 'figma',
-    icon: figma,
-  },
-  {
-    name: 'docker',
-    icon: docker,
-  },
 ];
 const experiences = [
   {
-    title: 'React.js Developer',
-    company_name: 'Starbucks',
-    icon: starbucks,
-    iconBg: '#383E56',
-    date: 'March 2020 - April 2021',
+    title: 'Mentor',
+    company_name: 'Canada Learning Code',
+    icon: clc,
+    iconBg: '#fff',
+    date: 'July 2018 - Present',
     points: [
-      'Developing and maintaining web applications using React.js and other related technologies.',
-      'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
-      'Implementing responsive design and ensuring cross-browser compatibility.',
+      'Mentored and assisted attendees at different levels of technical knowledge. ',
+      ' Provided feedback and made sure attendees are having a positive learning experience. ',
+    ],
+  },
+  {
+    title: 'Front End Engineer',
+    company_name: 'Shair.co',
+    icon: shair,
+    iconBg: '#303030',
+    date: 'June 2021 - April 2023',
+    points: [
+      'Built and shipped the core mobile app with 2 other team members.',
+      'Optimized and modularized various user workflows on both the web and mobile app leveraging various frontend and AI libraries.',
+      'Maintained and contributed to the company’s component/UI libraries which sped development time by 50%.  ',
+      'Mentored and assisted other team members, supporting their technical growth and fostering a collaborative environment.',
+    ],
+  },
+  {
+    title: 'Front End Engineer - Intern',
+    company_name: 'Viewpoint Investment Partners',
+    icon: viewpoint,
+    iconBg: '#E6DEDD',
+    date: 'Dec 2020 - March 2020',
+    points: [
+      'Built and shipped the initial version of the company&apos;s notification system using Angular and RxJs. ',
+      'Created a design document outlining the data flow, technical requirements, and the architectural design of the notification project.',
+      'Developed data visualizations enhancing the user experience for users using D3.js.',
       'Participating in code reviews and providing constructive feedback to other developers.',
     ],
   },
   {
-    title: 'React Native Developer',
-    company_name: 'Tesla',
-    icon: tesla,
-    iconBg: '#E6DEDD',
-    date: 'Jan 2021 - Feb 2022',
+    title: 'Coding Mentor',
+    company_name: 'Lighthouse Labs',
+    icon: lighthouselabs,
+    iconBg: '#fff',
+    date: 'Oct 2020 - Dec 2020',
     points: [
-      'Developing and maintaining web applications using React.js and other related technologies.',
-      'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
-      'Implementing responsive design and ensuring cross-browser compatibility.',
-      'Participating in code reviews and providing constructive feedback to other developers.',
+      'Provided guidance, feedback, and support to students enrolled in a coding bootcamp program, specializing in JavaScript, React, PostgreSQL, and CSS.',
     ],
   },
   {
     title: 'Web Developer',
-    company_name: 'Shopify',
-    icon: shopify,
-    iconBg: '#383E56',
-    date: 'Jan 2022 - Jan 2023',
+    company_name: 'The Brick',
+    icon: thebrick,
+    iconBg: '#f8f0ee',
+    date: 'May 2019 - May 2020',
     points: [
-      'Developing and maintaining web applications using React.js and other related technologies.',
-      'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
-      'Implementing responsive design and ensuring cross-browser compatibility.',
-      'Participating in code reviews and providing constructive feedback to other developers.',
-    ],
-  },
-  {
-    title: 'Full stack Developer',
-    company_name: 'Meta',
-    icon: meta,
-    iconBg: '#E6DEDD',
-    date: 'Jan 2023 - Present',
-    points: [
-      'Developing and maintaining web applications using React.js and other related technologies.',
-      'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
-      'Implementing responsive design and ensuring cross-browser compatibility.',
-      'Participating in code reviews and providing constructive feedback to other developers.',
+      'Worked with various appliance and furniture brand to web pages that helped boost the sales of specific products.',
+      'Organized sales event materials on the e-commerce platform which was on Shopify',
+      'Collaborated closely with the marketing team to design and implement engaging marketing emails and landing pages that effectively promoted products and campaigns.',
     ],
   },
 ];
@@ -205,58 +202,38 @@ const projects = [
         color: 'blue-text-gradient',
       },
       {
-        name: 'mongodb',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'tailwind',
-        color: 'pink-text-gradient',
-      },
-    ],
-    image: carrent,
-    source_code_link: 'https://github.com/',
-  },
-  {
-    name: 'Job IT',
-    description:
-      'Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.',
-    tags: [
-      {
-        name: 'react',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'restapi',
+        name: 'material-ui',
         color: 'green-text-gradient',
       },
       {
         name: 'scss',
         color: 'pink-text-gradient',
       },
+      {
+        name: 'axios',
+        color: 'yello-text-gradient',
+      },
     ],
-    image: jobit,
-    source_code_link: 'https://github.com/',
+    image: shairco,
+    source_code_link: 'https://github.com/emurdnt/shair',
   },
   {
-    name: 'Trip Guide',
+    name: 'Rover',
     description:
-      'A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.',
+      'Web application that showcases a GraphQL authentication workflow.',
     tags: [
       {
-        name: 'nextjs',
+        name: 'react',
         color: 'blue-text-gradient',
       },
       {
-        name: 'supabase',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'css',
-        color: 'pink-text-gradient',
+        name: 'graphql',
+        color: 'purple-text-gradient',
       },
     ],
-    image: tripguide,
-    source_code_link: 'https://github.com/',
+    image: rover,
+    source_code_link:
+      'https://github.com/emurdnt/take-home-assignment-react',
   },
 ];
 export {
