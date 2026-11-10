@@ -23,6 +23,7 @@ import angular from './tech/angular.png';
 import lighthouselabs from './company/lighthouselabs.jpg';
 import shair from './company/shair.jpg';
 import thebrick from './company/thebrick.jpg';
+import borealis from './company/borealis.jpg';
 import viewpoint from './company/viewpoint.svg';
 import clc from './company/clc.png';
 
@@ -57,4 +58,5 @@ export {
   clc,
   shairco,
   rover,
+  borealis,
 };
