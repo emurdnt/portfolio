@@ -51,7 +51,7 @@ const About = () => {
         variants={fadeIn('', '', 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I'm a results-driven Software Engineer with 3+ years of
+        I'm a results-driven Software Engineer with 5+ years of
         experience in frontend across various industries, including
         E-Commerce, FinTech, and Services. Proficient in crafting
         intuitive user interfaces for web and mobile applications
