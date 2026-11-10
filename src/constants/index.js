@@ -106,14 +106,28 @@ const technologies = [
 ];
 const experiences = [
   {
+    title: 'Senior Frontend Developer',
+    company_name: 'RBC Borealis',
+    icon: clc,
+    iconBg: '#fff',
+    date: 'May 2024 - Present',
+    points: [
+      'Mentored and assisted attendees at different levels of technical knowledge. ',
+      ' Provided feedback and made sure attendees are having a positive learning experience. ',
+    ],
+  },
+  {
     title: 'Mentor',
     company_name: 'Canada Learning Code',
     icon: clc,
     iconBg: '#fff',
     date: 'July 2018 - Present',
     points: [
-      'Mentored and assisted attendees at different levels of technical knowledge. ',
-      ' Provided feedback and made sure attendees are having a positive learning experience. ',
+      'Built and published a reusable UI component library to an internal Artifactory npm registry, using GitHub Copilot to accelerate implementation and improve consistency across frontend development.',
+      'Led frontend architecture for an enterprise Document AI Search Engine supporting 10,000+ users, establishing reusable UI patterns and collaborating with design, engineering, and AI/ML teams',
+      'Co-developed an enterprise AI chat application serving 20,000+ employees, achieving 98% user retention and enabling 346,000+ hours in reported productivity savings.',
+      'Co-developed an enterprise call-centre PWA with real-time transcription, AI-powered recommendations, and document search; contributed to a product projected to deliver $100M+ in business value.',
+      'Built production frontend experiences using React, TypeScript, and Angular; emphasized accessibility, maintainability, testing, and component reuse',
     ],
   },
   {
