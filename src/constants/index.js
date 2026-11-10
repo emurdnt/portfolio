@@ -21,6 +21,7 @@ import {
   creator,
   shairco,
   rover,
+  borealis,
 } from '../assets';
 export const navLinks = [
   {
@@ -108,7 +109,7 @@ const experiences = [
   {
     title: 'Senior Frontend Developer',
     company_name: 'RBC Borealis',
-    icon: clc,
+    icon: borealis,
     iconBg: '#fff',
     date: 'May 2024 - Present',
     points: [
